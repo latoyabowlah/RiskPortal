@@ -1,6 +1,138 @@
+.globe{
+	padding-bottom: 70px;
+}
 
 
-.Feed{
-	float: right;
-	width: 20%;
+.col-xs-6 {
+	width: 100%;
+}
+
+
+@media all and (max-width:2400px){
+
+
+	.rowB{
+	float: left;
+	display: inline-block;
+	width: 75%;
+	height: 360px;
+}
+
+
+.rowC{
+	float: left;
+	display: inline-block;
+	width: 75%;
+	height: 360px;
+}
+
+.news{
+	float: left;
+	padding-top: 10px;
+	margin-left: 10%;
+	width:400px;
+	height: 267px;
+
+}
+
+h2{
+	margin-left: 20%;
+	padding-top: 250px;
+}
+
+footer{
+
+	float:left;
+}
+}
+
+@media all and (max-width:1199px){
+
+
+.col-xs-6{
+	padding:5px;
+
+}
+
+	.rowB{
+	float: left;
+	display: inline-block;
+	width: 100%
+}
+
+
+.rowC{
+	float: left;
+	display: inline-block;
+	width: 100%
+}
+
+.news{
+	float: left;
+	padding-top: 10px;
+	margin-left: 10%;
+	width: 100%
+
+}
+
+h2{
+	margin-left: 20%;
+	padding-top: 150px;
+}
+
+footer{
+
+	float:left;
+}
+}
+
+
+@media all and (max-width:400px){
+
+	
+
+	div.twitter-timeline{
+		display: none; 
+	}
+#twitter-wjs{
+	display: none; 
+}
+
+
+.col-xs-6{
+	padding:2px;
+
+}
+
+	.rowB{
+	float: left;
+	display: inline-block;
+	width: 100%
+}
+
+
+.rowC{
+	float: left;
+	display: inline-block;
+	width: 100%
+}
+
+.news{
+	float: left;
+	padding-top: 10px;
+	margin-left: 10%;
+	width: 100%
+
+}
+
+h2{
+	width:100%;
+	margin-left: 5%;
+
+}
+
+footer{
+
+	float:left;
+}
 }
